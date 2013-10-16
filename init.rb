@@ -1,6 +1,6 @@
 require 'redmine'
 
-Redmine::Plugin.register :issue_template do
+Redmine::Plugin.register :custom_user_fields do
   name 'Redmine custom user field plugin'
   author 'Zhang Fan'
   description 'Add \'Role of\' to custom filed of user type.'
